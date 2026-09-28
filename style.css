@@ -1,0 +1,80 @@
+body {
+    font-family: Arial;
+    background-color: lightblue;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+.menu {
+    background-color: darkblue;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.menu a:hover {
+    color: yellow;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    border: 3px solid darkblue;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    width: 70%;
+}
+
+input, select, textarea {
+    padding: 8px;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: white;
+}
+
+input[type="reset"] {
+    background-color: red;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+}
